@@ -1,0 +1,3 @@
+# urldecoder
+Most of the url encoders and decoders I've used encode ALL of the characters we supply within the input... 
+But what we want is only the URL-sensitive characters to be encoded, hence this project
