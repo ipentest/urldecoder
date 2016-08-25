@@ -4,16 +4,14 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<title>URL Decoder/Encoder</title>
+<title>URL Encode Decode by @ipentest</title>
 <style type="text/css">
 <!--
 body {background: white; color: black;}
 form {margin: 0;}
-h1 {font-family: Arial, sans-serif; line-height: 0.85em; border-bottom: 2px solid;
+h1 {font-family: Tahoma, sans-serif; line-height: 0.85em; border-bottom: 2px solid;
   margin-bottom: 0.33em; padding-bottom: 0;}
-
-textarea {background: #E1F;}
-
+textarea {background: #EFF;}
 #footer {border-top: 1px solid #000; color: #999; font: italic 75% sans-serif;}
 #footer p {margin: 0 0 1em 0;}
 #footer img {float: right; margin: 0 0 0.5em 2em;}
@@ -36,9 +34,9 @@ function decode() {
 
 
 <form onsubmit="return false;">
-<h1>URL Decoder/Encoder</h1>
+<h1>URL DEncoder by @iPenTest</h1>
 
-<textarea cols="100" rows="20" id="dencoder"></textarea>
+<textarea cols="100" rows="10" id="dencoder"></textarea>
 <div>
 <input type="button" onclick="decode()" value="Decode">
 <input type="button" onclick="encode()" value="Encode">
@@ -46,8 +44,8 @@ function decode() {
 
 <ul>
 <li>Input a string of text and encode or decode it as you like.</li>
-<li>Handy for turning encoded JavaScript URLs from complete gibberish into readable gibberish.</li>
-<li>If you'd like to have the URL Decoder/Encoder for offline use, just view source and save to your hard drive.</li>
+<li>Alphanumerics are not touched... Only the reserved characters in a URL are encoded</li>
+<li>Go to https://github.com/ipentest/urldecoder/blob/master/index.html Save as HTML and you're good to go offline</li>
 </ul>
 
 </form>
@@ -62,6 +60,9 @@ The URL Decoder/Encoder is licensed under a Creative Commons <a href="http://cre
 <p>
 That's about it... Enjoy
 </p>
+<p>
+Twitter: @iPenTest</p>
+LinkedIn: http://tinyurl.com/kirankarnad
 </div>
 
 </body>
